@@ -38,12 +38,12 @@ class Parsedown
 	# Remove/clean markdown
 	#
 	
-	function clean($text)
+    function clean($text)
     {
-		# convert to markup
+        # convert to markup
         $markup = $this->text($text);
-		
-		# return without markdown or HTML, just pure text
+        	
+        # return without markdown or HTML, just pure text
         return strip_tags($markup);
     }
 
