@@ -33,6 +33,19 @@ class Parsedown
 
         return $markup;
     }
+	
+	#
+	# Remove/clean markdown
+	#
+	
+	function clean($text)
+    {
+		# convert to markup
+        $markup = $this->text($text);
+		
+		# return without markdown or HTML, just pure text
+        return strip_tags($markup);
+    }
 
     protected function textElements($text)
     {
