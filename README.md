@@ -1,4 +1,4 @@
-<h1>Parsedown (forked by Dotteex)</h1>
+<h1>Parsedown</h1>
 
 Forked Parsedown (markdown parser) which adds a cleaning function. See example below.
 
