@@ -1,6 +1,6 @@
 <h1>Parsedown</h1>
 
-Forked Parsedown (markdown parser) with markdown removal function. See example below.
+Forked Parsedown (markdown parser) repository with a markdown removal function. See example below.
 
 ## Example
 
